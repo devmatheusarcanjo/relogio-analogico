@@ -1,0 +1,65 @@
+ * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100dvh;
+    }
+    
+    .relogio {
+      width: 70vw;
+      height: 70vw;
+      background-color: #777;
+      border-radius: 50%;
+      position: relative;            
+    }
+    
+    span {
+      display: block;
+      position: absolute;
+    }
+    
+    #ponto-centro {
+      width: 10%;
+      height: 10%;
+      background-color: #999;            
+      left: 45%;
+      top: 45%;
+      border-radius: 50%;
+    }
+    
+    #ponteiro-hora {
+      width: 20%;
+      height: 3%;      
+      background-color: white;
+      transform-origin: left;  
+      left: 50%;
+      top: 48.5%;
+      border-radius: 20px;
+    }
+    
+    #ponteiro-minuto {
+      width: 40%;
+      height: 3%;      
+      background-color: white;
+      transform-origin: left;  
+      left: 50%;
+      top: 48.5%;
+      border-radius: 20px;            
+    }
+    
+    #ponteiro-segundo {
+      width: 30%;      
+      height: 1%;      
+      background-color: yellow;
+      left: 50%;
+      top: 49%;
+      border-radius: 20px;  
+      transform-origin: left;                  
+    }
+    
